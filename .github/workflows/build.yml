@@ -28,5 +28,5 @@ jobs:
     - name: Upload built jar
       uses: actions/upload-artifact@v4
       with:
-        name: BetterCombat-Jar
-        path: build/libs/*.jar
+        name: BetterCombat-Fabric-Jar
+        path: fabric/build/libs/*.jar
